@@ -16,7 +16,7 @@ api.get('/logs/status', async () => {
 /* ----------------------------------------------------------------
 Snippet from functional tests.
 */
-it.skip('creates student', async () => {
+it('creates student', async () => {
   const sName = `Student ${epoch}`
   const data = {
     name: sName, 
